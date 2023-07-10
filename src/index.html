@@ -6,12 +6,44 @@
     <link rel="stylesheet" type="text/css" href="./style.scss" />
     <link rel="stylesheet" type="text/css" href="./styles/main.scss" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Василёк</title>
   </head>
   <body>
     <div id="app">
-      <div class="wrapper">
-        <a href="./pages/pay.html">aaaaaa</a>
+      <div class="conteiner">
+        <header class="header display_flex_row">
+          <div class="location display_flex_row">
+            <img src="./img/main_page/location_pin_svg.svg" alt="" />
+            <div>Ваш город: Санкт-Петербург</div>
+          </div>
+          <img src="./img/main_page/IMG_1580-removebg-preview 1.svg" alt="" />
+          <nav class="navigation">
+            <span>О компании</span>
+            <span>Контакты</span>
+            <span>Мой профиль</span>
+          </nav>
+        </header>
+        <div class="catalog_frame display_flex_row">
+          <button class="cotalog_btn box_shadow">Каталог</button>
+          <div class="sort box_shadow">
+            <span>Кольца</span>
+            <span>Серьги</span>
+            <span>Подвески</span>
+            <span>Браслеты</span>
+            <span>Подарки</span>
+          </div>
+          <div class="icons box_shadow">
+            <img src="./img/main_page/search_svg.svg" alt="">
+            <img src="./img/main_page/favourite_svg.svg" alt="">
+            <img src="./img/main_page/cart_svg.svg" alt="">
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="./main.ts"></script>
